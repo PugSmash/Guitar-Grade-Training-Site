@@ -35,3 +35,18 @@
   min-height: 100vh;
   border-block-color: white;
 }
+
+.container_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav_div {
+  height: 100px;
+  width: 400px;
+  background-color: #25252A;
+  color: white;
+  text-align: center;
+}
