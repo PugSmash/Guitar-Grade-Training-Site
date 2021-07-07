@@ -15,7 +15,7 @@ function generator() {
   console.log(random_number_maj);
   
  
-  document.getElementById("yes").innerHTML = base_chord[random_number_base] + flats_and_sharps[random_num_flats] + maj_min[random_number_maj] + seven[random_num_7];
+  document.getElementById("Chord").innerHTML = base_chord[random_number_base] + flats_and_sharps[random_num_flats] + maj_min[random_number_maj] + seven[random_num_7];
   
  
  

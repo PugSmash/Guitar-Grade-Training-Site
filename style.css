@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
-#gen_button {
+.gen_button {
   width: 300px;
   height: 100px;
   border: none;
@@ -10,7 +10,7 @@
   order:2;
 }
 
-#yes {
+#chord {
   
   width: 350px;
   font-size: 100px;
