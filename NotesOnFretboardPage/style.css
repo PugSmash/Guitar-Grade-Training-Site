@@ -1,29 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
-.gen_button {
-  width: 300px;
-  height: 100px;
-  border: none;
-  color: white;
-  background-color: rgb(255,0,68);
-  border-radius: 4px;
-  order:2;
-}
 
-#chord {
-  
-  width: 350px;
-  font-size: 100px;
-  color: white;
-  order:1;
-  
-}
 
 * {
   font-family: "Source Sans Pro", sans-serif;
   letter-spacing: 2px;
   background-color: #25252A;
   font-size: 30px;
+}
+
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 .container {
@@ -49,4 +38,28 @@
   background-color: #25252A;
   color: white;
   text-align: center;
+}
+
+.button {
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: white;
+  background-color: rgb(255,0,68);
+  border-radius: 4px;
+  order:2;
+}
+
+#Question {
+  color: white;
+}
+
+#AnswerEntry {
+  border-color: white;
+  border-radius: 10px;
+  color: white;
+}
+
+#score {
+  color: white;
 }
